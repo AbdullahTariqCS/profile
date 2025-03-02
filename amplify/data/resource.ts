@@ -1,5 +1,5 @@
 import { type ClientSchema, a, defineData } from "@aws-amplify/backend";
-import { postConfirmation } from "../auth/post-confirmation/resource.ts";
+import { postConfirmation } from "../auth/post-confirmation/resource";
 
 const schema = a
   .schema({
